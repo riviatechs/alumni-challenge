@@ -1,5 +1,3 @@
-import Image from "next/image"
-import styles from "../styles/Home.module.css"
 import CssBaseline from "@mui/material/CssBaseline"
 import MyHead from "../components/MyHead"
 import Poster from "../components/Poster"
@@ -9,37 +7,39 @@ import "@fontsource/roboto/300.css"
 import "@fontsource/roboto/400.css"
 import "@fontsource/roboto/500.css"
 import "@fontsource/roboto/700.css"
+import About from "../components/About"
+import Partners from "../components/Partners"
+import ContactUs from "../components/ContactUs"
+import Mission from "../components/Mission"
+import Footer from "../components/Footer"
+import Organizer from "../components/Organizer"
 
 export default function Home() {
   return (
     <div>
       <CssBaseline />
 
-      <div className={styles.container}>
+      <div>
         <MyHead />
 
         <MyNavigationBar />
 
-        <main></main>
+        <main>
+          <Poster />
 
-        <Poster />
+          <About />
 
-        <footer className={styles.footer}>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by{" "}
-            <span className={styles.logo}>
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                width={72}
-                height={16}
-              />
-            </span>
-          </a>
+          <Mission />
+
+          <Organizer />
+
+          <Partners />
+
+          <ContactUs />
+        </main>
+
+        <footer>
+          <Footer />
         </footer>
       </div>
     </div>
