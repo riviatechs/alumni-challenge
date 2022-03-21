@@ -2,6 +2,7 @@ import Image from "next/image"
 import styles from "../styles/Home.module.css"
 import CssBaseline from "@mui/material/CssBaseline"
 import MyHead from "../components/MyHead"
+import Poster from "../components/Poster"
 import MyNavigationBar from "../components/MyNavigationBar"
 import "typeface-roboto"
 import "@fontsource/roboto/300.css"
@@ -20,6 +21,8 @@ export default function Home() {
         <MyNavigationBar />
 
         <main className={styles.main}></main>
+
+        <Poster />
 
         <footer className={styles.footer}>
           <a
