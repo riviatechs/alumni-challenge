@@ -3,6 +3,11 @@ import styles from "../styles/Home.module.css"
 import CssBaseline from "@mui/material/CssBaseline"
 import MyHead from "../components/MyHead"
 import MyNavigationBar from "../components/MyNavigationBar"
+import "typeface-roboto"
+import "@fontsource/roboto/300.css"
+import "@fontsource/roboto/400.css"
+import "@fontsource/roboto/500.css"
+import "@fontsource/roboto/700.css"
 
 export default function Home() {
   return (

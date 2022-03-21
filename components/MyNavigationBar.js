@@ -6,37 +6,35 @@ import AppBar from "@mui/material/AppBar"
 import styles from "../styles/components/MyNavigationBar.module.css"
 import PropTypes from "prop-types"
 import useScrollTrigger from "@mui/material/useScrollTrigger"
+import Toolbar from "@mui/material/Toolbar"
+import { Typography } from "@mui/material"
 
 export default function MyNavigationBar(props) {
   return (
     <nav className={styles.nav}>
       <ElevationScroll {...props}>
-        <AppBar className={styles.appBar}>
-          <Image src={Logo} width={40} height={40} alt={"Company logo"} />
+        <AppBar>
+          <Toolbar className={styles.appBar}>
+            <Image src={Logo} width={40} height={40} alt={"Company logo"} />
 
-          <div>
-            <Link href={"/"}>
-              <a>Home</a>
-            </Link>
-          </div>
+            <Typography variant="h6" component={"div"}>
+              <Link href={"/#organizers"}>
+                <a>Organizers</a>
+              </Link>
+            </Typography>
 
-          <div>
-            <Link href={"/organizers"}>
-              <a>Organizers</a>
-            </Link>
-          </div>
+            <Typography variant="h6" component="div">
+              <Link href={"/#partners"}>
+                <a>Partners</a>
+              </Link>
+            </Typography>
 
-          <div>
-            <Link href={"/partners"}>
-              <a>Partners</a>
-            </Link>
-          </div>
-
-          <div>
-            <Link href={"/contact-us"}>
-              <a>Contact Us</a>
-            </Link>
-          </div>
+            <Typography variant="h6" component="div">
+              <Link href={"/#contact-us"}>
+                <a>Contact Us</a>
+              </Link>
+            </Typography>
+          </Toolbar>
         </AppBar>
       </ElevationScroll>
     </nav>
