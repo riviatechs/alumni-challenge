@@ -11,7 +11,7 @@ import { Typography } from "@mui/material"
 
 export default function MyNavigationBar(props) {
   return (
-    <nav className={styles.nav}>
+    <nav className={styles.navigationBar}>
       <ElevationScroll {...props}>
         <AppBar>
           <Toolbar className={styles.appBar}>

@@ -1,3 +1,6 @@
+.navigationBar {
+  padding-bottom: 5rem;
+}
 .appBar {
   display: flex;
   flex-direction: row;

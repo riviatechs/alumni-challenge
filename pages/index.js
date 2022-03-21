@@ -20,7 +20,7 @@ export default function Home() {
 
         <MyNavigationBar />
 
-        <main className={styles.main}></main>
+        <main></main>
 
         <Poster />
 
