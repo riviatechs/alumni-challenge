@@ -1,4 +1,4 @@
-.about {
+.mission {
   display: flex;
   flex-direction: column;
   margin: 1rem;
@@ -11,6 +11,11 @@
   padding: 1rem;
 }
 
+.image {
+  width: 100vw;
+  height: 10vh;
+}
+
 .body {
   display: flex;
   flex-direction: column;
@@ -18,11 +23,5 @@
 }
 
 .content {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.image {
-  width: 100vw;
-  height: 10vh;
+  padding: 1rem;
 }

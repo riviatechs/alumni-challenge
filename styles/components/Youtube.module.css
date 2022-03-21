@@ -1,4 +1,7 @@
 .videoResponsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
