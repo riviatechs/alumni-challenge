@@ -14,15 +14,15 @@ import Mission from "../components/Mission"
 import Footer from "../components/Footer"
 import Organizer from "../components/Organizer"
 import Previous from "../components/Previous"
+import { Fragment } from "react"
 
 export default function Home() {
   return (
-    <div>
+    <Fragment>
+      <MyHead />
       <CssBaseline />
 
       <div>
-        <MyHead />
-
         <MyNavigationBar />
 
         <main>
@@ -45,6 +45,6 @@ export default function Home() {
           <Footer />
         </footer>
       </div>
-    </div>
+    </Fragment>
   )
 }
