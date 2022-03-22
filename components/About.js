@@ -10,12 +10,12 @@ const playGolf = "A man playing golf"
 export default function About(props) {
   return (
     <div className={styles.about}>
-      <Typography variant="h5" component="h2" className={styles.title}>
+      <Typography component="h2" className={styles.title}>
         About the Alumni Challenge
       </Typography>
 
       <div className={styles.body}>
-        <Typography variant="body1" component="p" className={styles.content}>
+        <Typography component="p" className={styles.content}>
           Alumni Challenge is an initiative to drive back Alumni participation
           in tangible development in their former school, college or university
           through different sports and social avenues.

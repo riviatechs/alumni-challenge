@@ -6,8 +6,8 @@ function MyHead(props) {
       <meta charSet="utf-8" />
       <meta name="description" content="Alumni golf Challenge" />
       <meta name="viewport" content="initial-scale=1, width=device-width" />
-      <link rel="icon" href="/favicon/favicon.ico" />
-      <title>The Alumni Challenge</title>
+      <link rel="icon" href="/favicon.ico" />
+      <title>Alumni golf Challenge</title>
     </Head>
   )
 }
