@@ -13,6 +13,7 @@ import ContactUs from "../components/ContactUs"
 import Mission from "../components/Mission"
 import Footer from "../components/Footer"
 import Organizer from "../components/Organizer"
+import Previous from "../components/Previous"
 
 export default function Home() {
   return (
@@ -30,6 +31,8 @@ export default function Home() {
           <About />
 
           <Mission />
+
+          <Previous />
 
           <Organizer />
 

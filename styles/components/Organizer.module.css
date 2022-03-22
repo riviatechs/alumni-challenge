@@ -1,0 +1,23 @@
+.organizer {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.image {
+  width: 100vw;
+  height: 10vh;
+}
