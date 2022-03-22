@@ -23,8 +23,8 @@ export default function About(props) {
 
         <Image
           src={Golf}
-          width={2000}
-          height={1128}
+          width={477}
+          height={465}
           alt={playGolf}
           className={styles.image}
         />
