@@ -14,6 +14,7 @@ import Mission from "../components/Mission"
 import Footer from "../components/Footer"
 import Organizer from "../components/Organizer"
 import Previous from "../components/Previous"
+import styles from "../styles/Home.module.css"
 
 export default function Home() {
   return (
@@ -26,9 +27,11 @@ export default function Home() {
         <MyNavigationBar />
 
         <main>
-          <Poster />
+          <div className={styles.section1}>
+            <Poster className={styles.poster} />
 
-          <About />
+            <About />
+          </div>
 
           <Mission />
 

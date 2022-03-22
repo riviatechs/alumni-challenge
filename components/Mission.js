@@ -8,7 +8,7 @@ const childHoldBooks = "Child holding a stack of books"
 export default function Mission(props) {
   return (
     <div className={styles.Mission}>
-      <Typography variant="h6" component="h2" className={styles.title}>
+      <Typography variant="h5" component="h2" className={styles.title}>
         Mission
       </Typography>
 
@@ -16,7 +16,6 @@ export default function Mission(props) {
         src={childBooks}
         height={1024}
         width={790}
-        layout="responsive"
         alt={childHoldBooks}
         className={styles.image}
       />
