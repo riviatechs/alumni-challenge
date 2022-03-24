@@ -7,30 +7,20 @@ import styles from "../../styles/components/Content.module.css"
 
 function Content() {
   return (
-    <>
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          textAlign: "center",
-        }}
-      >
-        <div>
-          <Image src={Logo} width={200} height={200} alt={"Company logo"} />
-        </div>
+    <div className={styles.content}>
+      <div>
+        <Image src={Logo} width={200} height={200} alt={"Company logo"} />
+      </div>
 
-        <h1>
-          We are alumni Challenge, we give you an opportunity to give back to
-          your community!
-        </h1>
+      <h1>
+        We are alumni Challenge, we give you an opportunity to give back to your
+        community!
+      </h1>
 
-        <Button size="large" className={styles.joinButton}>
-          Join Next Challenge
-        </Button>
-      </Box>
-    </>
+      <Button size="large" className={styles.joinButton}>
+        Join Next Challenge
+      </Button>
+    </div>
   )
 }
 
