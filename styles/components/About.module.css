@@ -17,6 +17,10 @@
   align-items: center;
 }
 
+.section {
+  display: flex;
+}
+
 .content {
   padding-top: 1rem;
   padding-bottom: 1rem;

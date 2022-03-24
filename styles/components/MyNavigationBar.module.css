@@ -8,7 +8,7 @@
   /* width: 100%; */
   justify-content: space-between;
   padding: 10px 0;
-  margin: 50px 20%;
+  margin: 50px 5%;
   /* border-radius: 50px; */
   /* background: green; */
   font: inherit;
@@ -24,6 +24,17 @@
 .navLink:hover {
   color: green !important;
   cursor: pointer;
+}
+
+.contactButton {
+  color: white;
+  background: rgba(0, 128, 0, 0.74);
+  border-radius: 20px 0 20px 0;
+}
+
+.contactButton:hover {
+  border-radius: 0;
+  background: rgba(0, 128, 0, 0.74);
 }
 
 .bars {
