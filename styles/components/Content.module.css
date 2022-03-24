@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.content h1 {
+  margin: 50px 0;
+}
+
 .joinButton {
   color: white;
   background-color: rgba(0, 128, 0, 0.74);

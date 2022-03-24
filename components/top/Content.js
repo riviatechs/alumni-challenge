@@ -9,7 +9,7 @@ function Content() {
   return (
     <div className={styles.content}>
       <div>
-        <Image src={Logo} width={200} height={200} alt={"Company logo"} />
+        <Image src={Logo} width={300} height={300} alt={"Company logo"} />
       </div>
 
       <h1>
