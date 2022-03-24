@@ -1,10 +1,10 @@
 import * as React from "react"
 import Link from "next/link"
 
+import { Button } from "@mui/material"
 import MenuIcon from "@mui/icons-material/Menu"
 
 import styles from "../../styles/components/MyNavigationBar.module.css"
-import { Button } from "@mui/material"
 
 export default function MyNavigationBar(props) {
   return (
@@ -28,13 +28,13 @@ export default function MyNavigationBar(props) {
           </div>
         </Link>
 
-        <Link href={"/gallery"} passHref>
+        <Link href={"/#gallery"} passHref>
           <div className={styles.navLink}>
             <a>Gallery</a>
           </div>
         </Link>
 
-        <Link href={"/about"} passHref>
+        <Link href={"/#about"} passHref>
           <div className={styles.navLink}>
             <a>About</a>
           </div>
