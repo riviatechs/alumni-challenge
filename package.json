@@ -24,6 +24,7 @@
     "typeface-roboto": "^1.1.13"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint": "8.11.0",
     "eslint-config-next": "12.1.0",
     "eslint-config-prettier": "^8.5.0",
