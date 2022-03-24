@@ -5,12 +5,10 @@
 
 .navLinks {
   display: flex;
-  width: 60%;
+  width: 50%;
   justify-content: space-between;
   padding: 10px 0;
   margin: 50px 5%;
-  /* border-radius: 50px; */
-  /* background: green; */
   font: inherit;
   font-size: inherit;
 }
@@ -18,11 +16,13 @@
 .navLink {
   color: green;
   padding: 10px 20px;
-  border-radius: 20px;
+  border-bottom: 2px solid transparent;
+  text-transform: uppercase;
 }
 
 .navLink:hover {
   color: green !important;
+  border-bottom: 2px solid green;
   cursor: pointer;
 }
 
