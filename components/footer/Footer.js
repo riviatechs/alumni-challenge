@@ -1,13 +1,15 @@
-import FacebookIcon from "@mui/icons-material/Facebook"
 import Link from "next/link"
+
+import FacebookIcon from "@mui/icons-material/Facebook"
 import YouTubeIcon from "@mui/icons-material/YouTube"
 import InstagramIcon from "@mui/icons-material/Instagram"
 import TwitterIcon from "@mui/icons-material/Twitter"
 import LinkedInIcon from "@mui/icons-material/LinkedIn"
 import EmailIcon from "@mui/icons-material/Email"
-import styles from "../styles/components/Footer.module.css"
 import { Paper, Typography } from "@mui/material"
 import FavoriteIcon from "@mui/icons-material/Favorite"
+
+import styles from "../../styles/components/Footer.module.css"
 
 const riviaTechLink = "https://riviatechs.com"
 const facebookLink = "https://facebook.com"

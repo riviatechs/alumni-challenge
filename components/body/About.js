@@ -1,8 +1,9 @@
-import { Paper, Typography } from "@mui/material"
-import styles from "../styles/components/About.module.css"
 import Image from "next/image"
-import Golf from "../public/golf.png"
-import Play from "../public/play.jpg"
+import { Paper, Typography } from "@mui/material"
+
+import styles from "../../styles/components/About.module.css"
+import Golf from "../../public/golf.png"
+import Play from "../../public/play.jpg"
 
 const golfText = "Golf club and a flag"
 const playGolf = "A man playing golf"
