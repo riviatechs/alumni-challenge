@@ -8,6 +8,7 @@ WORKDIR /
 
 # If using npm with a `package-lock.json` comment out above and use below instead
 COPY package.json package-lock.json / 
+RUN npm install -g npm@8.5.5
 RUN npm install
 
 # Rebuild the source code only when needed
