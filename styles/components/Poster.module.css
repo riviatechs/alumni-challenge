@@ -4,6 +4,7 @@
   border-radius: 50px 0 0 50px !important;
   position: relative;
   overflow: "hidden";
+  border: 0;
 }
 
 .posterImage {

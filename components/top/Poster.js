@@ -11,7 +11,14 @@ import golfPoster3 from "../../public/pictures/golf9.jpg"
 export default function Poster() {
   return (
     <div className={styles.poster}>
-      <Carousel autoPlay infiniteLoop>
+      <Carousel
+        autoPlay
+        infiniteLoop
+        showArrows={false}
+        showThumbs={false}
+        showIndicators={false}
+        showStatus={false}
+      >
         <div>
           <Image
             src={golfPoster1}

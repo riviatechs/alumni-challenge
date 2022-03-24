@@ -10,14 +10,11 @@ import { Typography } from "@mui/material"
 import PropTypes from "prop-types"
 
 import styles from "../../styles/components/MyNavigationBar.module.css"
-// import Logo from "../public/logos/Alumni-Golf-Logo-White.png"
 
 export default function MyNavigationBar(props) {
   return (
     <>
       <div className={styles.appBar}>
-        {/* <Image src={Logo} width={200} height={200} alt={"Company logo"} /> */}
-
         <div className={styles.navLinks}>
           <Link href={"/#organizers"} passHref>
             <div className={styles.navLink}>

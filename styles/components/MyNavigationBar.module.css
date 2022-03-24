@@ -5,9 +5,9 @@
 
 .navLinks {
   display: flex;
-  width: 50%;
+  width: 100%;
   justify-content: space-between;
-  padding: 20px 5%;
+  padding: 20px 25%;
   font: inherit;
   font-size: inherit;
 }
