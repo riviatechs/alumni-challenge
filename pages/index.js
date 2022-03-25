@@ -5,7 +5,6 @@ import About from "../components/body/About"
 import Footer from "../components/footer/Footer"
 import { Fragment } from "react"
 
-// import styles from "../styles/Home.module.css"
 import Top from "../components/top/Top"
 
 export default function Home() {
