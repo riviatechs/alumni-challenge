@@ -18,3 +18,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.insistText {
+  color: #008000;
+}

@@ -3,7 +3,7 @@ import Link from "next/link"
 import Image from "next/image"
 
 // material imports
-import { Button } from "@mui/material"
+import { Button, Divider } from "@mui/material"
 import MenuIcon from "@mui/icons-material/Menu"
 
 // image imports
@@ -24,19 +24,20 @@ export default function MyNavigationBar(props) {
 
       <div className={styles.links}>
         <div className={styles.navLinks}>
-          {/* <Link href={"/#about"} passHref> */}
             <div className={styles.navLinkAbout}>
               about
               <div className={styles.aboutLinks}>
             <ul>
               <li>Mission</li>
+              <Divider sx={{background: "white"}} />
               <li>Vision</li>
+              <Divider sx={{background: "white"}} />
               <li>Organizers</li>
+              <Divider sx={{background: "white"}} />
               <li>Partners</li>
             </ul>
           </div>
             </div>
-          {/* </Link> */}
 
           <Link href={"/#gallery"} passHref>
             <div className={styles.navLink}>

@@ -13,7 +13,7 @@ function Content() {
       </div> */}
 
       <h1>
-        The perfect opportunity to give back to the community?
+        The perfect <span className="insistText">opportunity</span> to <span className="insistText">give back</span> to the community?
       </h1>
 
       <Button size="large" className={styles.joinButton}>

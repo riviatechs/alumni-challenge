@@ -36,6 +36,7 @@
 
 .navLink, .navLinkAbout {
   color: green;
+  font-weight: 500;
   padding: 10px 20px;
   border-bottom: 2px solid transparent;
   text-transform: uppercase;
@@ -55,6 +56,7 @@
   position: absolute;
   color: white;
   background: green;
+  font-weight: normal;
   top: 70%;
   display: none;
   z-index: 3;
@@ -67,9 +69,9 @@
 }
 
 .aboutLinks ul {
-  list-style: circle;
+  list-style: none;
   margin: 0;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .aboutLinks ul li {
@@ -78,6 +80,7 @@
 
 .aboutLinks ul li:hover{
   transform: translateX(5px);
+  color: rgba(255, 255, 255, 0.747);
 }
 
 .navLinkAbout:hover .aboutLinks {
@@ -85,7 +88,12 @@
 }
 
 .contactButton {
-  border-radius: 0 !important;
+  border-radius: 0 20px 0 20px  !important;
+}
+
+.contactButton:hover {
+  border-radius: 0  !important;
+
 }
 
 .joinButton {
