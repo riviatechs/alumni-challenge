@@ -27,11 +27,6 @@ export default function About() {
             <h1>Mission</h1>
             <div className={styles.missionContent}>
               <p>
-                Build a robust Alumni group that will advance institution
-                development
-              </p>
-
-              <p>
                 Networking opportunities among corporates that ride on Alumni
                 associations
               </p>
@@ -70,8 +65,8 @@ export default function About() {
               </p>
 
               <p>
-                Build a community who are willing to give back to their
-                societies.
+                Build a robust Alumni group that will advance institution
+                development
               </p>
             </div>
           </div>
