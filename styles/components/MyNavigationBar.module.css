@@ -1,6 +1,26 @@
 .appBar {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  position: relative;
+}
+
+.logo {
+  width: 35%;
+  color: green;
+  font-weight: bold;
+  font-size: 1.2em;
+  position: absolute;
+  top: 35%;
+}
+
+.links {
+  width: 70%;
+  display: flex;
   justify-content: right;
+  align-items: center;
+  margin-left: 30%;
 }
 
 .navLinks {
@@ -11,9 +31,10 @@
   margin: 50px 5%;
   font: inherit;
   font-size: inherit;
+  position: relative;
 }
 
-.navLink {
+.navLink, .navLinkAbout {
   color: green;
   padding: 10px 20px;
   border-bottom: 2px solid transparent;
@@ -21,22 +42,70 @@
 }
 
 .navLink:hover {
-  color: green !important;
-  border-bottom: 2px solid green;
+  color: rgba(0, 128, 0, 0.616) !important;
   cursor: pointer;
 }
 
-.contactButton {
-  color: white !important;
-  background: rgba(0, 128, 0, 0.74) !important;
-  border-radius: 20px 0 20px 0 !important;
-  transition: all 300ms !important;
-  padding: 10px !important;
+.navLinkAbout:hover, .navLinkAbout:focus {
+  cursor: pointer;
 }
 
-.contactButton:hover {
+
+.aboutLinks {
+  position: absolute;
+  color: white;
+  background: green;
+  top: 70%;
+  display: none;
+  z-index: 3;
+  padding: 20px;
+  border-radius: 0 50px 0 50px;
+}
+
+.aboutLinks:hover {
+  border-radius: 0px;
+}
+
+.aboutLinks ul {
+  list-style: circle;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.aboutLinks ul li {
+  margin: 5px 0;
+}
+
+.aboutLinks ul li:hover{
+  transform: translateX(5px);
+}
+
+.navLinkAbout:hover .aboutLinks {
+  display: block !important;
+}
+
+.contactButton {
+  border-radius: 0 !important;
+}
+
+.joinButton {
+  color: white !important;
+  background: rgba(0, 128, 0, 0.74) !important;
+  border-radius: 0 20px 0 20px !important;
+  transition: all 300ms !important;
+  margin-left: 10px;
+}
+
+.joinButton:hover {
   border-radius: 0 !important;
   background: rgba(0, 128, 0, 0.74) !important;
+}
+
+.buttons {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
 }
 
 .bars {

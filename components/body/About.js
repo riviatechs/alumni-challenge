@@ -10,7 +10,7 @@ import Play from "../../public/play.jpg"
 const golfText = "Golf club and a flag"
 const playGolf = "A man playing golf"
 
-export default function About(props) {
+export default function About() {
   return (
     <div className={styles.about}>
       <h1 className={styles.title}>About the Alumni Challenge</h1>

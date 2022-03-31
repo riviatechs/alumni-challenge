@@ -8,13 +8,12 @@ import styles from "../../styles/components/Content.module.css"
 function Content() {
   return (
     <div className={styles.content}>
-      <div>
+      {/* <div>
         <Image src={Logo} width={300} height={300} alt={"Company logo"} />
-      </div>
+      </div> */}
 
       <h1>
-        We are alumni Challenge, we give you an opportunity to give back to your
-        community!
+        The perfect opportunity to give back to the community?
       </h1>
 
       <Button size="large" className={styles.joinButton}>
