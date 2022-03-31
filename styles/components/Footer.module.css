@@ -1,18 +1,59 @@
 .footer {
   display: flex;
   flex-direction: column;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  padding: 100px 50px;
+  padding-bottom: 20px;
+  background: #fbfbcb;
 }
 
-.socialMedia {
+.top {
   display: flex;
-  flex-direction: row;
+  align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  padding-bottom: 50px;
+}
+
+.left, .middle, .right {
+  width: 32%;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  text-align: right;
+}
+
+.left h2, .right h2 {
+  color: #008800;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.logo {
+  color: #008800;
+  font-weight: bold;
+}
+
+.logo h2 {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.socialMediaLinks {
+  margin: 30px 0;
 }
 
 .riviaTech {
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 30px 0;
 }

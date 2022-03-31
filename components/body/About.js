@@ -1,12 +1,18 @@
 import Image from "next/image"
-import { Paper, Typography } from "@mui/material"
 
+// imported components
+import Organizer from "./Organizer"
+
+// imported css
 import styles from "../../styles/components/About.module.css"
+
+// imported images
 import Golf from "../../public/golf.png"
 import missionImage from "../../public/about/mission.png"
 import visionImage from "../../public/about/vision.png"
 import Play from "../../public/play.jpg"
 
+// Text conent to variables
 const golfText = "Golf club and a flag"
 const playGolf = "A man playing golf"
 
@@ -17,28 +23,58 @@ export default function About() {
 
       <div className={styles.visionMission}>
         <div className={styles.mission}>
-          <div>
+          <div className={styles.missionContentWrapper}>
+            <h1>Mission</h1>
+            <div className={styles.missionContent}>
+              <p>
+                Build a robust Alumni group that will advance institution
+                development
+              </p>
+
+              <p>
+                Networking opportunities among corporates that ride on Alumni
+                associations
+              </p>
+
+              <p>
+                Encourage Outreach programmes targeting learners through sports
+                and other CSR efforts.
+              </p>
+            </div>
+          </div>
+
+          <div className={styles.missionImage}>
             <Image
               src={missionImage}
-              width={620}
-              height={403}
+              width={314}
+              height={361}
               alt="mission image"
             />
           </div>
-          <h1>Mission</h1>
-          <div>content</div>
         </div>
         <div className={styles.vision}>
-          <div>
+          <div className={styles.visionImage}>
             <Image
               src={visionImage}
-              width={522}
-              height={478}
+              width={508}
+              height={411}
               alt="mission image"
             />
           </div>
-          <h1>Vision</h1>
-          <div>content</div>
+          <div className={styles.visionContentWrapper}>
+            <h1>Vision</h1>
+            <div className={styles.visionContent}>
+              <p>
+                Network and give back to the community in big ways by use of
+                competitive sporting activities
+              </p>
+
+              <p>
+                Build a community who are willing to give back to their
+                societies.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -49,6 +85,7 @@ export default function About() {
             in tangible development in their former school, college or
             university through different sports and social avenues.
           </p>
+
           <div className={styles.image}>
             <Image src={Golf} width={477} height={465} alt={playGolf} />
           </div>
@@ -56,7 +93,7 @@ export default function About() {
 
         <section className={styles.section}>
           <div className={styles.image}>
-            <Image src={Play} width={477} height={465} alt={golfText} />
+            <Image src={Play} width={2000} height={1128} alt={golfText} />
           </div>
 
           <p className={styles.content}>
@@ -73,6 +110,8 @@ export default function About() {
           vulnerable students in their alma mater
         </p> */}
       </div>
+
+      <Organizer />
     </div>
   )
 }

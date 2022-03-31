@@ -1,5 +1,3 @@
-# .prettierrc or .prettierrc.yaml
-
 printWidth: 80
 trailingComma: "es5"
 tabWidth: 2
