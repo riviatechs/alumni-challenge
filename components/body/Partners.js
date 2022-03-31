@@ -10,7 +10,7 @@ export default function Partners(props) {
         className={styles.sponsorsPoster}
         src={sponsors}
         height={714}
-        width={3876}
+        width={3490}
         alt="Sponsors List"
       />
     </div>

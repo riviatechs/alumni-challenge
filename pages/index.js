@@ -23,8 +23,8 @@ export default function Home() {
       <main>
         <About />
         <Gallery />
-        <Partners />
         <Organizer />
+        <Partners />
       </main>
 
       <footer>
