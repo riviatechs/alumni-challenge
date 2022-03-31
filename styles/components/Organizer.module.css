@@ -11,12 +11,16 @@
   padding: 1rem;
 }
 
-.content {
+.body {
   display: flex;
-  flex-direction: column;
-  padding: 1rem;
+  align-items: flex-start;
 }
 
-/* .image {
-  
-} */
+.image {
+  width: 50%;
+}
+
+.organizerContent {
+  width: 50%;
+  padding: 0 50px;
+}

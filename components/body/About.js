@@ -7,10 +7,10 @@ import Organizer from "./Organizer"
 import styles from "../../styles/components/About.module.css"
 
 // imported images
-import Golf from "../../public/golf.png"
+import Golf from "../../public/about/about1.jpg"
 import missionImage from "../../public/about/mission.png"
 import visionImage from "../../public/about/vision.png"
-import Play from "../../public/play.jpg"
+import Play from "../../public/about/about2.jpg"
 
 // Text conent to variables
 const golfText = "Golf club and a flag"
@@ -87,13 +87,13 @@ export default function About() {
           </p>
 
           <div className={styles.image}>
-            <Image src={Golf} width={477} height={465} alt={playGolf} />
+            <Image src={Golf} width={3000} height={2000} alt={playGolf} />
           </div>
         </section>
 
         <section className={styles.section}>
           <div className={styles.image}>
-            <Image src={Play} width={2000} height={1128} alt={golfText} />
+            <Image src={Play} width={3000} height={2000} alt={golfText} />
           </div>
 
           <p className={styles.content}>

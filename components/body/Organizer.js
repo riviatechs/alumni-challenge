@@ -4,7 +4,7 @@ import Image from "next/image"
 // material components
 import { Typography } from "@mui/material"
 
-import edgeIsle from "../../public/winners1.png"
+import edgeIsle from "../../public/pictures/mark/ALUMNI GOLF CHALLANGE 2022-146.jpg"
 
 // imported css
 import styles from "../../styles/components/Organizer.module.css"
@@ -14,14 +14,20 @@ export default function Organizer(props) {
     <div className={styles.Organizer}>
       <h1>Team</h1>
 
-      <div className={styles.content}>
+      <div className={styles.body}>
         <div className={styles.image}>
-          <Image src={edgeIsle} width={541} height={364} alt="EdgeIsle Team" />
+          <Image
+            src={edgeIsle}
+            width={2000}
+            height={3000}
+            alt="EdgeIsle Team"
+          />
         </div>
 
-        <Typography variant="body1" component="p" className={styles.body}>
+        <div className={styles.organizerContent}>
+          <h2>Founder</h2>
           Edgeisle is a marketing agency
-        </Typography>
+        </div>
       </div>
     </div>
   )

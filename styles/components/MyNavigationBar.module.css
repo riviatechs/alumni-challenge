@@ -34,7 +34,8 @@
   position: relative;
 }
 
-.navLink, .navLinkAbout {
+.navLink,
+.navLinkAbout {
   color: green;
   font-weight: 500;
   padding: 10px 20px;
@@ -47,10 +48,10 @@
   cursor: pointer;
 }
 
-.navLinkAbout:hover, .navLinkAbout:focus {
+.navLinkAbout:hover,
+.navLinkAbout:focus {
   cursor: pointer;
 }
-
 
 .aboutLinks {
   position: absolute;
@@ -78,7 +79,7 @@
   margin: 5px 0;
 }
 
-.aboutLinks ul li:hover{
+.aboutLinks ul li:hover {
   transform: translateX(5px);
   color: rgba(255, 255, 255, 0.747);
 }
@@ -88,12 +89,11 @@
 }
 
 .contactButton {
-  border-radius: 0 20px 0 20px  !important;
+  border-radius: 20px 0 20px 0 !important;
 }
 
 .contactButton:hover {
-  border-radius: 0  !important;
-
+  border-radius: 0 !important;
 }
 
 .joinButton {
