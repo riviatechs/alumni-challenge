@@ -6,6 +6,9 @@ import Footer from "../components/footer/Footer"
 import { Fragment } from "react"
 
 import Top from "../components/top/Top"
+import Gallery from "../components/body/gallery/Gallery"
+import Organizer from "../components/body/Organizer"
+import Partners from "../components/body/Partners"
 
 export default function Home() {
   return (
@@ -19,6 +22,9 @@ export default function Home() {
 
       <main>
         <About />
+        <Gallery />
+        <Partners />
+        <Organizer />
       </main>
 
       <footer>

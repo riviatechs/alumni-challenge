@@ -110,8 +110,6 @@ export default function About() {
           vulnerable students in their alma mater
         </p> */}
       </div>
-
-      <Organizer />
     </div>
   )
 }
