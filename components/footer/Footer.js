@@ -40,66 +40,68 @@ export default function Footer(props) {
             </div>
             <div className={styles.socialMediaLinks}>
               <Link href={facebookLink} passHref>
-            <FacebookIcon></FacebookIcon>
-          </Link>
+                <FacebookIcon></FacebookIcon>
+              </Link>
 
-          <Link href={youtubeLink} passHref>
-            <YouTubeIcon></YouTubeIcon>
-          </Link>
+              <Link href={youtubeLink} passHref>
+                <YouTubeIcon></YouTubeIcon>
+              </Link>
 
-          <Link href={instagramLink} passHref>
-            <InstagramIcon></InstagramIcon>
-          </Link>
+              <Link href={instagramLink} passHref>
+                <InstagramIcon></InstagramIcon>
+              </Link>
             </div>
           </div>
 
           <div className={styles.middle}>
-<div className={styles.logo}>
+            <div className={styles.logo}>
               <div>
-                <Image src={Logo} width={250} height={250} alt={"Company logo"} />
+                <Image
+                  src={Logo}
+                  width={250}
+                  height={250}
+                  alt={"Company logo"}
+                />
               </div>
               <h2>ALUMNI GOLF CHALLENGE</h2>
             </div>
             <div>
-              We give you the opportunity to give back to the community while enjoying yourself
+              We give you the opportunity to give back to the community while
+              enjoying yourself
             </div>
-
-
-            
           </div>
 
           <div className={styles.right}>
             <h2>Address</h2>
             <div>
-<div>Location</div>
-            <div>Email</div>
-            <div>Number</div>
+              <div>Location</div>
+              <div>Email</div>
+              <div>Number</div>
             </div>
-            
+
             <div className={styles.socialMediaLinks}>
+              <Link href={twitterLink} passHref>
+                <TwitterIcon></TwitterIcon>
+              </Link>
 
-          <Link href={twitterLink} passHref>
-            <TwitterIcon></TwitterIcon>
-          </Link>
+              <Link href={linkedInLink} passHref>
+                <LinkedInIcon></LinkedInIcon>
+              </Link>
 
-          <Link href={linkedInLink} passHref>
-            <LinkedInIcon></LinkedInIcon>
-          </Link>
-
-          <Link href={mailToLink} passHref>
-            <EmailIcon></EmailIcon>
-          </Link>
-        </div>
+              <Link href={mailToLink} passHref>
+                <EmailIcon />
+              </Link>
+            </div>
           </div>
         </div>
 
         <Divider />
 
         <div className={styles.riviaTech}>
-            Made with <FavoriteIcon color="success" /> by
-            <Link href={riviaTechLink}>
-              <a> Rivia Tech</a>
-            </Link>
+          Made with <FavoriteIcon color="success" /> by
+          <Link href={riviaTechLink}>
+            <a> Rivia Tech</a>
+          </Link>
         </div>
       </div>
     </>

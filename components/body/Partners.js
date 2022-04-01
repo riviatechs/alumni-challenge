@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material"
-import sponsors from "../../public/sponsors.jpg"
+import sponsors from "../../public/sponsors.png"
 import Image from "next/image"
 import styles from "../../styles/components/Partners.module.css"
 
